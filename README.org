@@ -1,0 +1,3 @@
+This is currently *not* production code.
+
+I wrote it mainly to get used to C++ again.

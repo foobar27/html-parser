@@ -1,0 +1,8 @@
+cmake_minimum_required(VERSION 2.8.11)
+project(html-parser)
+set(HTML_PARSER_CMAKE_DIRECTORY "${CMAKE_SOURCE_DIR}/cmake/")
+set(CMAKE_MODULE_PATH "${HTML_PARSER_CMAKE_DIRECTORY}" ${CMAKE_MODULE_PATH})
+add_definitions(-std=c++11 -Wall -pedantic)
+enable_testing()
+add_subdirectory(src)
+add_subdirectory(test)
